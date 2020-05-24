@@ -17,4 +17,5 @@ const initalElearning = async () => {
   await db.sequelize.sync({ force: true });
   importElearning();
 };
+// // open create table and import data
 // initalElearning();
